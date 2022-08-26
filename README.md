@@ -2,12 +2,12 @@
 Web-based drum machine with sounds activated by keyboard or clicking.
 
 key commands:
-a - kick
-s - snare
-d - hi hat
-j - clap
-k - clink
-l - cymbal (long decay)
+a - kick<br>
+s - snare<br>
+d - hi hat<br>
+j - clap<br>
+k - clink<br>
+l - cymbal (long decay)<br>
 
 This program demonstrates the use of Javascript/JQuery event listeners to activate pre-loaded drum samples by mouse or keyboard. 
 
