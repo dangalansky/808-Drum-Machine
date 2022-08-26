@@ -1,7 +1,7 @@
 # 808-Drum-Machine
 Web-based drum machine with sounds activated by keyboard or clicking.
 
-key commands:
+key commands:<br>
 a - kick<br>
 s - snare<br>
 d - hi hat<br>
