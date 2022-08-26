@@ -1,0 +1,27 @@
+body {
+  text-align: center;
+  background-color: #B3B3B3;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #000000;
+  font-family: 'Major Mono Display', monospace;
+  text-shadow: 3px 0 #FFFFFF;
+
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
