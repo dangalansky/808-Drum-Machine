@@ -1,27 +1,99 @@
-body {
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body 
+{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  background-color: #B3B3B3;
+  background-color: hsl(0, 0%, 70%);
 }
 
-h1 {
+header
+{
+  width: 100%;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#menu
+{
+  height: 5rem;
+  width: 4rem;
+  filter: invert();
+}
+
+h1 
+{
   font-size: 5rem;
-  color: #000000;
+  color: hsl(0, 0%, 0%);
   font-family: 'Major Mono Display', monospace;
-  text-shadow: 3px 0 #FFFFFF;
-
+  text-align: center;
+  text-shadow: .2rem 0 hsl(0, 0%, 100%);
 }
 
-footer {
-  color: #DBEDF3;
-  font-family: sans-serif;
+main
+{
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
 }
 
-button {
+main button
+{
+  height: 50%;
+  flex: 0 1 25%;
   background-color: transparent;
   border: none;
 }
 
-.pressed {
-  box-shadow: 0 3px 4px 0 #DBEDF3;
+footer
+{
+  padding: .75rem;
+  flex-grow: 1;
+  color: hsl(0, 0%, 0%);
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+
+#menu:hover,
+button:hover
+{
+  cursor: pointer;
+}
+
+.pressed 
+{
   opacity: 0.5;
+}
+
+.dark-mode
+{
+  background-color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 100%);
+}
+
+.dark-mode h1
+{
+  color: hsl(0, 0%, 30%);
+  text-shadow: .2rem 0 hsl(0, 0%, 70%);
+}
+
+.dark-mode .pressed 
+{
+  opacity: 0.5;
+}
+
+.dark-mode footer
+{
+  color: hsl(0, 0%, 70%);
 }
